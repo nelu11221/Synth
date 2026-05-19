@@ -1,7 +1,40 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(echo \"Server starting with PID $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3003)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3003/login)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3003/register)",
+      "Bash(curl *)",
+      "Bash(node *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(python3 -c ' *)",
+      "Bash(npm show *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f\\\\\"react-device-frameset v{d['dist-tags']['latest']} — {d.get\\('description',''\\)[:80]}\\\\nWeekly downloads info not in show, checking...\\\\\"\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('main',''\\), d.get\\('module',''\\), d.get\\('exports',''\\)\\)\")",
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill -9)",
+      "Bash(npm list *)",
+      "Bash(npm uninstall *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('version','?'\\)\\)\")",
+      "Bash(nc -z -w 5 db.gkmxpnacbtguupshpqhn.supabase.co 5432)",
+      "Bash(echo \"port 5432 exit: $?\")",
+      "Bash(nc -z -w 5 db.gkmxpnacbtguupshpqhn.supabase.co 6543)",
+      "Bash(echo \"port 6543 exit: $?\")",
+      "Bash(python3 -c \"import sys,json; [print\\(json.loads\\(l\\).get\\('level',''\\), json.loads\\(l\\).get\\('message',''\\)[:120]\\) for l in sys.stdin]\")",
+      "Bash(PGPASSWORD='Vanea12344321567#' psql *)",
+      "Bash(brew install *)",
+      "Bash(mkdir -p /Users/nelugarila/synth/src/app/api/tasks/\\\\[id\\\\]/execute)",
+      "Bash(mkdir -p /Users/nelugarila/synth/src/app/api/tasks/\\\\[id\\\\]/followup)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git add *)"
     ]
   }
 }
